@@ -3,8 +3,10 @@ import { Box, Text, Button, Container, chakra, Flex, SimpleGrid, Image, Icon } f
 
 function Contact() {
   return (
-    <Box  ml={60} mr={60} mt={8}>
-        contact
+    <Box  ml={80} mr={80} mt={8}>
+       <Text fontFamily='Sans-serif' fontSize='26px' letterSpacing='wide'>
+Contact me Here!
+    </Text>
     </Box>
   );
 }

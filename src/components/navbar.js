@@ -28,7 +28,7 @@ const Navbar = () => {
     <chakra.header w="full" h='100px'>
         <Flex  minWidth='max-content' alignItems='center' gap='2' flexDirection="column-reverse">
         <Box p='2'>
-        <Heading size='md'>Joshua</Heading>
+        <Heading size='md'>Joshua Butts</Heading>
         </Box>
 
         <Spacer />

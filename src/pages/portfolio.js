@@ -3,8 +3,10 @@ import { Box, Text, Button, Container, chakra, Flex, SimpleGrid, Image, Icon } f
 
 function Portfolio() {
   return (
-    <Box  ml={60} mr={60} mt={8}>
-        portfolio
+    <Box  ml={80} mr={80} mt={8}>
+              <Text fontFamily='Sans-serif' fontSize='26px' letterSpacing='wide'>
+Portfolio
+    </Text>
     </Box>
   );
 }
