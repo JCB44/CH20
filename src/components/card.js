@@ -12,10 +12,8 @@ const Card = () => {
       alignItems="center"
       justifyContent="center"
     >
-        <Image fit="scale-down" src={aboutIMG.image} alt="picture of Joshua Butts" border='2px'/>
-            <Text>
-                test
-            </Text>
+        {/* <Image fit="scale-down" src={aboutIMG.image} alt="picture of Joshua Butts" border='2px'/> */}
+
        
 
     </Flex>

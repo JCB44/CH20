@@ -7,10 +7,11 @@ import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
 import Resume from './pages/resume';
 import Footer from './components/footer';
-
+import { Box } from "@chakra-ui/react";
 function App() {
   return (
 <BrowserRouter> 
+<Box w='100%' h='100%' bgGradient='linear(to-r, gray.400, blue.200, blue.200, gray.400)'>
 <Navbar/>
   <Routes>
     <Route path="/" element={<About/>} />
@@ -21,6 +22,7 @@ function App() {
   </Routes>
 
   <Footer/>
+  </Box>
 </BrowserRouter>
   );
 }

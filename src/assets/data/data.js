@@ -1,5 +1,7 @@
-import PFP from "../images/Screenshot_9.png"
+import PFP from "../images/Headshot.png"
 
 export const aboutIMG = {
     image: PFP
  }
+
+ 

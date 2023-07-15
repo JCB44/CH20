@@ -11,9 +11,9 @@ Portfolio
 
 
     <Grid templateColumns='repeat(3, 1fr)' gap={9}>
-  <GridItem w='100%' h='100%' bg='blue.500'><Card/></GridItem>
-  <GridItem w='100%' h='100%' bg='blue.500' />
-  <GridItem w='100%' h='100%' bg='blue.500' />
+  <GridItem w='100%' h='100%' bg='blue.100'><Card/></GridItem>
+  <GridItem w='100%' h='100%' bg='blue.100' />
+  <GridItem w='100%' h='100%' bg='blue.100' />
 
   </Grid>
     </Box>
