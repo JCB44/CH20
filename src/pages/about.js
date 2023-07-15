@@ -5,7 +5,7 @@ import { aboutIMG } from "../assets/data/data.js"
 function About() {
   return (
     <Box  ml={80} mr={80} mt={8}>
-    <Text fontFamily='Sans-serif' fontSize='26px' letterSpacing='wide'>
+    <Text fontFamily='Sans-serif' fontSize='30px' letterSpacing='wide'>
 About me
     </Text>
 <Image h="120px" w="120px" fit="scale-down" src={aboutIMG.image} alt="picture of Joshua Butts"  borderRadius='full' border='2px'/>
